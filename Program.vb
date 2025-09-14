@@ -6,7 +6,7 @@ Public NotInheritable Class Program
     Inherits PixelGameEngine
 
     Private Const INITIAL_HEALTH As Integer = 12
-    Private Const GRAVITY As Single = 0.5F
+    Private Const GRAVITY As Single = 0.8F
     Private Const LEVEL_SCROLL_SPEED As Single = 3.0F
     Private Const UI_HEIGHT As Integer = 50
     Private Const OBJECT_SIZE As Integer = 2
@@ -309,7 +309,7 @@ Public NotInheritable Class Program
                     If platform.Type = PlatformImage.Fragile Then
                         platform.Type = PlatformImage.Broken
                     ElseIf platform.Type = PlatformImage.BouncingBlock Then
-                        m_playerVelocity.y = -GRAVITY * 1.25F
+                        m_playerVelocity.y = -GRAVITY * 0.9F
                         m_playerOnGround = False
                     End If
                 End If
