@@ -28,11 +28,11 @@ For reference on the visual inspiration behind these elements, see the image bel
 
 ## Prerequisites  
 To run this project, ensure you have the following installed:  
-- [.NET SDK](https://dotnet.microsoft.com/download): Version 8.0 or later (required for VB.NET compilation).  
+- [.NET SDK](https://dotnet.microsoft.com/download): version 8.0 or later (required for VB.NET compilation).  
 - IDE: Visual Studio 2022 (recommended) or Visual Studio Code.  
 - NuGet Packages:  
-  - **System.Drawing.Common** (v9.0.0 or later)  
-  - **NAudio** (v2.2.1—for background music playback)  
+  - **System.Drawing.Common 9.0.0+** 
+  - **NAudio 2.2.1** - for background music playback  
 
 ## How to Play  
 1. **Clone the Repository**:  
